@@ -4,7 +4,6 @@ export default function Home() {
   return (
     <main className="min-h-screen flex items-center justify-center bg-gray-100 p-6">
       <section className="w-[420px] bg-white rounded-2xl shadow-xl p-5 grid gap-4">
-        {/* Header */}
         <header>
           <h1 className="text-lg font-semibold text-gray-900">Appearance</h1>
           <p className="text-xs text-gray-500 mt-0.5">
@@ -12,7 +11,6 @@ export default function Home() {
           </p>
         </header>
 
-        {/* Language */}
         <section>
           <div className="flex items-center justify-between">
             <div>
@@ -26,10 +24,8 @@ export default function Home() {
           </div>
         </section>
 
-        {/* Divider */}
         <div className="border-t border-gray-200" />
 
-        {/* Interface theme */}
         <section>
           <h2 className="text-sm font-semibold text-gray-700">Interface theme</h2>
           <p className="text-xs text-gray-500 -mt-0.5">
@@ -37,7 +33,6 @@ export default function Home() {
           </p>
 
           <div className="flex gap-2 mt-2">
-            {/* Auto */}
             <div className="flex flex-col items-center flex-1">
               <div className="w-full rounded-lg overflow-hidden">
                 <Image
@@ -51,7 +46,6 @@ export default function Home() {
               <span className="mt-1 text-xs text-gray-600">Auto</span>
             </div>
 
-            {/* Light (selected) */}
             <div className="flex flex-col items-center flex-1 relative">
               <div className="w-full border-2 border-purple-500 rounded-lg overflow-hidden shadow-sm">
                 <Image
@@ -62,13 +56,12 @@ export default function Home() {
                   className="w-full h-[72px] object-cover"
                 />
               </div>
-              <div className="absolute left-2 bottom-6 w-4 h-4 rounded-full bg-purple-600 flex items-center justify-center text-white text-[10px] shadow">
+              <div className="absolute left-2 bottom-[23px] w-4 h-4 rounded-full bg-purple-600 flex items-center justify-center text-white text-[10px] shadow">
                 ✓
               </div>
               <span className="mt-1 text-xs text-gray-600">Light</span>
             </div>
 
-            {/* Dark */}
             <div className="flex flex-col items-center flex-1">
               <div className="w-full rounded-lg overflow-hidden">
                 <Image
@@ -84,10 +77,8 @@ export default function Home() {
           </div>
         </section>
 
-        {/* Divider */}
         <div className="border-t border-gray-200" />
 
-        {/* Accent color */}
         <section className="flex items-center justify-between">
           <div>
             <h2 className="text-sm font-semibold text-gray-700">Accent color</h2>
@@ -102,10 +93,8 @@ export default function Home() {
           </div>
         </section>
 
-        {/* Divider */}
         <div className="border-t border-gray-200" />
 
-        {/* Toggles */}
         <section className="grid">
           <label className="flex justify-between items-center text-sm py-2 border-b border-gray-100">
             <span className="flex items-center gap-2">☀️ Reduce motion</span>
@@ -135,10 +124,8 @@ export default function Home() {
           </label>
         </section>
 
-        {/* Divider */}
         <div className="border-t border-gray-200" />
 
-        {/* Footer */}
         <footer className="flex flex-row items-center justify-between pt-1">
           <span className="text-xs text-gray-400">Reset to default</span>
 
